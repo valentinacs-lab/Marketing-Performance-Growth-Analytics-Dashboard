@@ -15,6 +15,7 @@ Análisis del desempeño de canales digitales y comportamiento del usuario para 
 - Ventas totales
 - Crecimiento de ventas (%)
 - Engagement rate
+- Crecimiento del ultimo mes (%)
 - Ventas por canal
 - Evolución temporal de ventas
 
