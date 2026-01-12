@@ -1,7 +1,7 @@
 # Marketing-Performance-Growth-Analytics-Dashboard
 Data-driven analysis of digital channels to optimize sales, engagement and audience growth.
 
-### 1. Marketing Performance & Growth Analytics
+###  Marketing Performance & Growth Analytics
 **Descripción:**
 Análisis del desempeño de canales digitales y comportamiento del usuario para evaluar ventas, engagement y crecimiento de audiencias.
 
