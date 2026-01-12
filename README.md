@@ -20,3 +20,20 @@ Análisis del desempeño de canales digitales y comportamiento del usuario para 
 
 **Herramientas:**
 Power BI · DAX · Modelado de datos · Visual Analytics
+
+_ _ _ _ _
+
+## Medidas DAX utilizadas
+Ventas Totales = SUM ( Marketing[Ventas] )
+
+Interacciones Totales = SUM ( Marketing[Likes] ) + SUM ( Marketing[Comentarios] ) + SUM ( Marketing[Compartidos] )
+
+Engagement % =
+DIVIDE ([Interacciones Totales], SUM ( Marketing[Alcance] ))
+
+Ventas Mes Anterior =
+CALCULATE ([Ventas Totales], DATEADD ( Dim_Fecha[Date], -1, MONTH ))
+
+Crecimiento Ventas % =
+DIVIDE ([Ventas Totales] - [Ventas Mes Anterior],[Ventas Mes Anterior])
+
